@@ -1,1 +1,52 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#group1 {
+  background-image: url("../assets/group1/hero.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#group1 .toolbar {
+  padding: 50px 85px;
+}
+#group1 .toolbar nav,
+#group1 .toolbar .logo {
+  display: inline-block;
+}
+#group1 .toolbar nav {
+  float: right;
+  vertical-align: auto;
+}
+#group1 .toolbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#group1 .toolbar ul li {
+  display: inline-block;
+}
+#group1 .toolbar ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
+#group1 .text {
+  color: white;
+  position: relative;
+  left: 85px;
+  bottom: 50px;
+  max-width: 30%;
+}
+#group1 .text button {
+  color: white;
+  background-color: #f64b3c;
+  padding: 15px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
