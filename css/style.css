@@ -1,52 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Calistoga&family=Montserrat:wght@400;700&family=Nunito:wght@400;600&family=Poppins:wght@600&display=swap");
+*,
+html {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 #group1 {
-  background-image: url("../assets/group1/hero.png");
+  min-height: 797px;
   background-color: black;
+  background-image: url(../assets/group1/hero.png);
+  background-position: 0 0;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
   background-size: cover;
+  position: relative;
 }
 #group1 .toolbar {
-  padding: 50px 85px;
+  display: flex;
+  background: linear-gradient(to bottom, black, 80%, transparent);
+  justify-content: space-between;
 }
-#group1 .toolbar nav,
-#group1 .toolbar .logo {
-  display: inline-block;
-}
+#group1 .toolbar .logo,
 #group1 .toolbar nav {
-  float: right;
-  vertical-align: auto;
+  margin: 35px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #group1 .toolbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  vertical-align: center;
 }
 #group1 .toolbar ul li {
   display: inline-block;
 }
 #group1 .toolbar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
   display: block;
   color: white;
-  text-decoration: none;
-  padding: 10px;
-  text-transform: uppercase;
+  padding: 30px;
 }
 #group1 .text {
+  position: absolute;
+  bottom: 75px;
+  left: 75px;
+  max-width: 45%;
+}
+#group1 .text h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 91.04px;
   color: white;
-  position: relative;
-  left: 85px;
-  bottom: 50px;
-  max-width: 30%;
+}
+#group1 .text p {
+  font-family: "Nunito", sans-serif;
+  font-size: 32.16px;
+  color: white;
+  font-weight: 400;
 }
 #group1 .text button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
   color: white;
-  background-color: #f64b3c;
-  padding: 15px;
-  border-radius: 20px;
   text-transform: uppercase;
+  background-color: #f64b3c;
+  border-radius: 40px;
+  padding: 15px 60px;
 }/*# sourceMappingURL=style.css.map */
