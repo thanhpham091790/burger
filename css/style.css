@@ -15,7 +15,7 @@ body {
   background-image: url(../assets/group1/hero.png);
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 #group1 .toolbar {
@@ -74,4 +74,52 @@ body {
   background-color: #f64b3c;
   border-radius: 40px;
   padding: 15px 60px;
+}
+
+#group2 {
+  min-height: 797px;
+  background-image: url(../assets/group2/background.png);
+  background-position: 0 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f6eedf;
+  color: #f64b3c;
+  padding: 35px 0px;
+}
+#group2 .text {
+  max-width: 65%;
+  margin: 0 auto;
+}
+#group2 .text h2,
+#group2 .text p {
+  text-align: center;
+}
+#group2 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 63.66px;
+}
+#group2 .text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25.23px;
+  font-weight: 400;
+}
+#group2 .card-container {
+  display: flex;
+  max-width: 65%;
+  margin: 80px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#group2 .card-container .card {
+  text-align: center;
+}
+#group2 .card-container .card h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 33.33px;
+  text-transform: uppercase;
+}
+#group2 .card-container .card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */

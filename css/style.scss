@@ -22,7 +22,7 @@ body {
     background-image: url(../assets/group1/hero.png);
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 
     .toolbar {
@@ -89,6 +89,62 @@ body {
             background-color: #f64b3c;
             border-radius: 40px;
             padding: 15px 60px;
+        }
+    }
+}
+
+#group2 {
+    min-height: 797px;
+    background-image: url(../assets/group2/background.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f6eedf;
+    color: #f64b3c;
+    padding: 35px 0px;
+
+    .text {
+        max-width: 65%;
+        margin: 0 auto;
+
+        h2,
+        p {
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Archivo', sans-serif;
+            font-size: 63.66px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25.23px;
+            font-weight: 400;
+        }
+    }
+
+    .card-container {
+        display: flex;
+        max-width: 65%;
+        margin: 80px auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card {
+            text-align: center;
+
+            h3 {
+                font-family: 'Archivo', sans-serif;
+                font-size: 33.33px;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-family: 'Nunito', sans-serif;
+                font-size: 25px;
+            }
         }
     }
 }
