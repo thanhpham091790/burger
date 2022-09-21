@@ -316,3 +316,28 @@ body {
         }
     }
 }
+
+#group7 {
+    min-height: 797px;
+    background-image: url(../assets/group7/background.png);
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        width: 50%;
+
+        p {
+            font-family: 'Archivo', sans-serif;
+            font-size: 36.47px;
+        }
+
+        h4 {
+            font-family: 'Calistoga', cursive;
+            font-size: 44.9px;
+            font-weight: 400;
+        }
+    }
+}
