@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-#group3 .text button, #group1 .text button {
+#group1 .text button, #group4 .text button, #group3 .text button {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
@@ -17,6 +17,33 @@ body {
   border-radius: 40px;
   border: none;
   padding: 15px 60px;
+}
+
+#group4, #group3 {
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#group4 .text, #group3 .text {
+  max-width: 40%;
+}
+#group4 .text h2, #group3 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 75px;
+  margin-bottom: 0;
+}
+#group4 .text p, #group3 .text p {
+  font-family: "Nunito", sans-serif;
+  font-size: 29.72px;
+  font-weight: 400;
+  margin-bottom: 29.72px;
+}
+#group4 .text button, #group3 .text button {
+  color: #f64b3c;
+  background-color: white;
 }
 
 #group1 {
@@ -130,30 +157,21 @@ body {
 }
 
 #group3 {
-  background-color: #f64b3c;
-  min-height: 797px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: no-wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-#group3 .text {
   color: white;
-  max-width: 40%;
+  background-color: #f64b3c;
 }
-#group3 .text h2 {
-  font-family: "Archivo", sans-serif;
-  font-size: 75px;
-  margin-bottom: 0;
-}
-#group3 .text p {
-  font-family: "Nunito", sans-serif;
-  font-size: 29.72px;
-  font-weight: 400;
-  margin-bottom: 29.72px;
-}
-#group3 .text button {
+
+#group4 {
+  min-height: 800px;
   color: #f64b3c;
-  background-color: white;
+  background-color: #ffffff;
+  background-image: url(../assets/group4/background.png);
+  background-size: auto;
+  background-position: 0px 13px;
+  background-clip: content-box;
+  padding: 15px 30px 10px 0px;
+}
+#group4 .text button {
+  background-color: #f64b3c;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
