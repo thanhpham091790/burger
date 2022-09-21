@@ -157,21 +157,68 @@ body {
 }
 
 #group3 {
-  color: white;
+  color: #ffffff;
   background-color: #f64b3c;
 }
 
 #group4 {
   min-height: 800px;
   color: #f64b3c;
-  background-color: #ffffff;
+  background-color: #f6eedf;
   background-image: url(../assets/group4/background.png);
-  background-size: auto;
-  background-position: 0px 13px;
-  background-clip: content-box;
-  padding: 15px 30px 10px 0px;
+  background-size: cover;
 }
 #group4 .text button {
   background-color: #f64b3c;
   color: white;
+}
+
+#group5 {
+  min-height: 797px;
+  background-color: #f64b3c;
+  color: #ffffff;
+}
+#group5 .text {
+  max-width: 55%;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+#group5 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 62.26px;
+  margin-bottom: 0;
+}
+#group5 .text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24.68px;
+  font-weight: 400;
+}
+#group5 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+#group5 .card-container .card {
+  border: 5px solid white;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 33.33px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#group5 .card-container .card strong {
+  display: block;
+  font-family: "Archivo", sans-serif;
+  font-size: 101.61px;
 }/*# sourceMappingURL=style.css.map */
