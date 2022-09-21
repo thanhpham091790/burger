@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-#group1 .text button, #group4 .text button, #group3 .text button {
+#group6 .card-container .card button, #group1 .text button, #group4 .text button, #group3 .text button {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
@@ -221,4 +221,49 @@ body {
   display: block;
   font-family: "Archivo", sans-serif;
   font-size: 101.61px;
+}
+
+#group6 {
+  min-height: 800px;
+  background-image: url(../assets/group6/background.png);
+  background-size: auto;
+  color: #f64b3c;
+  background-color: #f6eedf;
+  text-align: center;
+}
+#group6 h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 75px;
+  padding: 20px;
+}
+#group6 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+#group6 .card-container .card {
+  width: 335px;
+  height: 443px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+#group6 .card-container .card h3,
+#group6 .card-container .card .price {
+  font-family: "Archivo", sans-serif;
+  font-size: 33.35px;
+}
+#group6 .card-container .card img {
+  margin: 10px;
+}
+#group6 .card-container .card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20.01px;
+  font-weight: 400;
+}
+#group6 .card-container .card button {
+  color: #ffffff;
+  background-color: #f64b3c;
 }/*# sourceMappingURL=style.css.map */
