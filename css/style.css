@@ -288,4 +288,65 @@ body {
   font-family: "Calistoga", cursive;
   font-size: 44.9px;
   font-weight: 400;
+}
+
+#group8 {
+  min-height: 797px;
+  background-color: #f6eedf;
+  display: flex;
+}
+#group8 .content {
+  width: 100%;
+  background-image: url(../assets/group8/background.png);
+  background-position: center;
+  background-size: cover;
+  resize: both;
+  transform: scale(0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#group8 .content h2,
+#group8 .content p {
+  color: #f64b3c;
+}
+#group8 .content h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 75px;
+  margin: 0;
+}
+#group8 .content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 29.72px;
+  font-weight: 400;
+  max-width: 50%;
+}
+#group8 .content .form {
+  width: 50%;
+}
+#group8 .content .form input {
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+#group8 .content .form button {
+  width: 30%;
+  background-color: #f64b3c;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
