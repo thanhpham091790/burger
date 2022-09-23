@@ -412,3 +412,71 @@ body {
 
     }
 }
+
+#group9 {
+    min-height: 797px;
+    border: 1px solid white;
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+        #col1 {
+            max-width: 35%;
+        }
+
+        .social {
+            a {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background-color: white;
+                border-radius: 50%;
+                padding: 10px;
+                margin: 10px;
+
+                .fa-brands {
+                    font-size: 30px;
+                    color: #222222;
+                }
+            }
+        }
+
+        h4 {
+            font-family: 'Archivo', sans-serif;
+            font-size: 31.47px;
+            margin: 0;
+        }
+
+        p {
+            font-family: 'Nunito', sans-serif;
+            font-size: 23.6px;
+            font-weight: 400;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                padding: 5px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 23.6px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

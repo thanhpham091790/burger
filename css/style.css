@@ -349,4 +349,61 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 25px;
   font-weight: 400;
+}
+
+#group9 {
+  min-height: 797px;
+  border: 1px solid white;
+  color: white;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#group9 .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+#group9 .content #col1 {
+  max-width: 35%;
+}
+#group9 .content .social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+#group9 .content .social a .fa-brands {
+  font-size: 30px;
+  color: #222222;
+}
+#group9 .content h4 {
+  font-family: "Archivo", sans-serif;
+  font-size: 31.47px;
+  margin: 0;
+}
+#group9 .content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 23.6px;
+  font-weight: 400;
+}
+#group9 .content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#group9 .content ul li {
+  padding: 5px;
+}
+#group9 .content ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 23.6px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
